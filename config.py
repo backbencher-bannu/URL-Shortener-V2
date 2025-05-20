@@ -26,7 +26,7 @@ ADMINS = (
     else []
 )
 
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "MdiskConvertor")
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "avhlink")
 DATABASE_URL = os.environ.get(
     "DATABASE_URL", None
 )  # mongodb uri from https://www.mongodb.com/
@@ -35,7 +35,7 @@ ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 
 #  Optionnal variables
 LOG_CHANNEL = int(
-    os.environ.get("LOG_CHANNEL", "0")
+    os.environ.get("LOG_CHANNEL", "-1002290275432")
 )  # log channel for information about users
 UPDATE_CHANNEL = int(os.environ.get(
     "UPDATE_CHANNEL", False))  # For Force Subscription
@@ -46,7 +46,7 @@ IS_PRIVATE = is_enabled(
     os.environ.get("IS_PRIVATE", "False"), "False"
 )  # true for private use and restricting users
 SOURCE_CODE = os.environ.get(
-    "SOURCE_CODE", "https://github.com/kevinnadar22/URL-Shortener-V2"
+    "SOURCE_CODE", "https://github.com/"
 )  # for upstream repo
 # image when someone hit /start
 WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", "")
@@ -54,7 +54,7 @@ LINK_BYPASS = is_enabled(
     (os.environ.get("LINK_BYPASS", "False")), False
 )  # if true, urls will be bypassed
 # your shortener site domain
-BASE_SITE = os.environ.get("BASE_SITE", "droplink.co")
+BASE_SITE = os.environ.get("BASE_SITE", "avhlink.site")
 
 # For Admin use
 CHANNELS = is_enabled((os.environ.get("CHANNELS", "True")), True)
