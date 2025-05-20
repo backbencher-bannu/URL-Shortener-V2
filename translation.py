@@ -48,9 +48,9 @@ ABOUT_TEXT = """
     
 `📝 Language:` [Python 3](https://www.python.org/)
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](t.me/ask_admin001)
-`📢 Support:` [Talk Bot](https://t.me/ask_admin001)
-`🌐 Source Code:` [GitHub](https://github.com/kevinnadar22/URL-Shortener-V2/)
+`👨‍💻 Developer:` [Dev](t.me/)
+`📢 Support:` [Talk Bot](https://t.me/)
+`🌐 Source Code:` [GitHub](https://github.com/)
 """
 
 
@@ -59,11 +59,11 @@ Current Method: {method}
     
 Methods Available:
 
-> `mdlink` - Change all the links of the post to your MDisk account first and then short to {shortener} link.
+> `ᴀᴠʜʟɪɴᴋ` - Change all the links of the post to your MDisk account first and then short to {shortener} link.
 
 > `shortener` - Short all the links of the post to {shortener} link directly.
 
-> `mdisk` - Save all the links of the post to your Mdisk account.
+> `ᴀᴠʜʟɪɴᴋ` - Save all the links of the post to your Mdisk account.
     
 To change method, choose it from the following options:
 """
@@ -160,7 +160,7 @@ USER_ABOUT_MESSAGE = """
 
 - 🔌 {base_site} API: {shortener_api}
 
-- 💾 Mdisk API: {mdisk_api}
+- 💾 ᴀᴠʜʟɪɴᴋ API: {mdisk_api}
 
 - 📎 Username: @{username}
 
